@@ -1,0 +1,42 @@
+body {
+	background-color: navy;
+	width: 100
+}
+p {
+font-size: 14px;
+}
+
+h1 {
+color: #5E85E1;
+font-size: 30px;
+text-align: center;
+}
+h2 {
+color: #5E85E1;
+font-size: 30x;
+text-align: center;
+}
+#page {
+color: blue;
+font-size: 20px;
+text-align: center;
+background-color: white;
+margin: auto;
+width: 80%;
+border-style: solid;
+border-width: 10px;
+border-color: #5E85E1;
+}
+.entete {
+text-align: center;
+color: blue;
+}
+#aboutme {
+text-align: center;
+color: blue;
+}
+footer {
+text-align: center;
+background-color: #5E85E1;
+color: blue;
+}
