@@ -35,6 +35,7 @@ html {
 #page  {
 	position: relative;
 	min-height: 100%;
+	margin: auto; /* centrer */
 }
 
 #container {
@@ -85,3 +86,10 @@ h1 {
 	color:black;
 }
 
+table, th, td {
+    border : 1px solid black;
+}
+
+.entete {
+    text-align: center;
+}
