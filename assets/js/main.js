@@ -82,6 +82,25 @@ function dictionnaire() {
 
     for (let token of text_tokens) {
         comptes.set(token, (comptes.get(token) ?? 0) + 1);
+                
+            if (aucun fichier sél. === "il faut charger un fichier") {
+    } else (un fichier est sél. === "le traitement a bien réussi"){
+    }
+    }
+    
+    function grep() {
+    let comptes = new Map();
+    let display = document.getElementById("page-analysis");
+    let myreg = /\w+/g; // /g pour indiquer le flag "global" 
+    let myreg = new RegExp("\\w+", "g"); // flag "g" en second paramètre
+
+-> grep -P "\b*\w*\b
+
+with open('fichier.txt', 'r') as f:
+    lignes = f.readlines()
+    
+    for (let token of text_tokens) {
+        comptes.set(token, (comptes.get(token) ?? 0) + 1);
     }
     
     let comptes_liste = Array.from(comptes);
