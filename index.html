@@ -15,6 +15,7 @@
             <h1 style="text-align:center;">Analyse des <span style="color:green">données</span> dans un fichier</h1>
             <div style="margin: 50px 5% 0px 5%; padding: 50px 10%; border-top: 2px solid black;">
         <button id="boutonAide" onclick="afficheCacheAide()">Afficher l'aide</button>
+
         <br />
         <div id="aide" style="display: none">
             <h2>Ceci est l'aide de l'utilisation du site.</h2>
@@ -26,6 +27,7 @@
             <h3>Compter les mots.</h3>
             <p>Pour avoir le comptage des mots, triés du plus fréquent au moins fréquent, on clique sur le bouton <button onclick="javascript:void(0);">Dictionnaire</button></p>
             <p>Le tableau sera affiché à droite.</p>
+            <p> Le bouton <button onclick="Concordance;"
         </div>
     </div>
 
@@ -71,6 +73,16 @@
                     <button class="submit" onclick="alert('Je ne fais rien, changez-moi !')"><span>action 6</span></button>
                 </p>
             </div>
+
+                       <div id="Concordance">
+        <table>
+        <thead>
+        <tr><th>Contexte gauche</th><th>Pôle</th><th>Contexte Droit</th></tr>
+        </thead>
+        <tbody>
+        <p> Concordancier :</p>
+</table>
+               
             <div id="logger" style="width:100%"></div>
             <br />
             <div id="Global">
